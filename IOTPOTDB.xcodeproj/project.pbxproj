@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8103E2A1FEAB47300F0F372 /* IOTPOTDBURLSessionAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F8103E291FEAB47300F0F372 /* IOTPOTDBURLSessionAPI.m */; };
+		F8103E301FEAC85200F0F372 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8103E2F1FEAC85200F0F372 /* HomeViewController.m */; };
+		F8103E331FEAD00600F0F372 /* FileCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8103E321FEAD00600F0F372 /* FileCollectionViewCell.m */; };
+		F8103E361FEAE9F300F0F372 /* folder.png in Resources */ = {isa = PBXBuildFile; fileRef = F8103E341FEAE9F300F0F372 /* folder.png */; };
+		F8103E371FEAE9F300F0F372 /* textfile.png in Resources */ = {isa = PBXBuildFile; fileRef = F8103E351FEAE9F300F0F372 /* textfile.png */; };
+		F8FA81581FE99AF8008CA28B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FA81571FE99AF8008CA28B /* AppDelegate.m */; };
+		F8FA815B1FE99AF8008CA28B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FA815A1FE99AF8008CA28B /* ViewController.m */; };
+		F8FA815E1FE99AF8008CA28B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8FA815C1FE99AF8008CA28B /* Main.storyboard */; };
+		F8FA81601FE99AF8008CA28B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8FA815F1FE99AF8008CA28B /* Assets.xcassets */; };
+		F8FA81631FE99AF8008CA28B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8FA81611FE99AF8008CA28B /* LaunchScreen.storyboard */; };
+		F8FA81661FE99AF8008CA28B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FA81651FE99AF8008CA28B /* main.m */; };
+		F8FA816E1FE9E5F1008CA28B /* AuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FA816D1FE9E5F1008CA28B /* AuthViewController.m */; };
+		F8FA81741FEA630F008CA28B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FA81731FEA6304008CA28B /* WebKit.framework */; };
+		F8FA81771FEA6756008CA28B /* IOTPOTDBAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FA81761FEA6756008CA28B /* IOTPOTDBAPI.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F8103E281FEAB47300F0F372 /* IOTPOTDBURLSessionAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOTPOTDBURLSessionAPI.h; sourceTree = "<group>"; };
+		F8103E291FEAB47300F0F372 /* IOTPOTDBURLSessionAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOTPOTDBURLSessionAPI.m; sourceTree = "<group>"; };
+		F8103E2E1FEAC85200F0F372 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		F8103E2F1FEAC85200F0F372 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		F8103E311FEAD00600F0F372 /* FileCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileCollectionViewCell.h; sourceTree = "<group>"; };
+		F8103E321FEAD00600F0F372 /* FileCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileCollectionViewCell.m; sourceTree = "<group>"; };
+		F8103E341FEAE9F300F0F372 /* folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = folder.png; sourceTree = "<group>"; };
+		F8103E351FEAE9F300F0F372 /* textfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textfile.png; sourceTree = "<group>"; };
+		F8FA81531FE99AF8008CA28B /* IOTPOTDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOTPOTDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8FA81561FE99AF8008CA28B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8FA81571FE99AF8008CA28B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8FA81591FE99AF8008CA28B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F8FA815A1FE99AF8008CA28B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F8FA815D1FE99AF8008CA28B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8FA815F1FE99AF8008CA28B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8FA81621FE99AF8008CA28B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8FA81641FE99AF8008CA28B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8FA81651FE99AF8008CA28B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8FA816C1FE9E5F1008CA28B /* AuthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthViewController.h; sourceTree = "<group>"; };
+		F8FA816D1FE9E5F1008CA28B /* AuthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthViewController.m; sourceTree = "<group>"; };
+		F8FA81731FEA6304008CA28B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		F8FA81751FEA6756008CA28B /* IOTPOTDBAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOTPOTDBAPI.h; sourceTree = "<group>"; };
+		F8FA81761FEA6756008CA28B /* IOTPOTDBAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOTPOTDBAPI.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8FA81501FE99AF8008CA28B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8FA81741FEA630F008CA28B /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8103E381FEAFCA200F0F372 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8FA81751FEA6756008CA28B /* IOTPOTDBAPI.h */,
+				F8FA81761FEA6756008CA28B /* IOTPOTDBAPI.m */,
+				F8103E281FEAB47300F0F372 /* IOTPOTDBURLSessionAPI.h */,
+				F8103E291FEAB47300F0F372 /* IOTPOTDBURLSessionAPI.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F8103E391FEAFCD100F0F372 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F8103E2E1FEAC85200F0F372 /* HomeViewController.h */,
+				F8103E2F1FEAC85200F0F372 /* HomeViewController.m */,
+				F8FA81591FE99AF8008CA28B /* ViewController.h */,
+				F8FA815A1FE99AF8008CA28B /* ViewController.m */,
+				F8103E311FEAD00600F0F372 /* FileCollectionViewCell.h */,
+				F8103E321FEAD00600F0F372 /* FileCollectionViewCell.m */,
+				F8FA815C1FE99AF8008CA28B /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F8103E3A1FEAFCEB00F0F372 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F8FA816C1FE9E5F1008CA28B /* AuthViewController.h */,
+				F8FA816D1FE9E5F1008CA28B /* AuthViewController.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F8FA814A1FE99AF8008CA28B = {
+			isa = PBXGroup;
+			children = (
+				F8FA81551FE99AF8008CA28B /* IOTPOTDB */,
+				F8FA81541FE99AF8008CA28B /* Products */,
+				F8FA81721FEA6303008CA28B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F8FA81541FE99AF8008CA28B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8FA81531FE99AF8008CA28B /* IOTPOTDB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8FA81551FE99AF8008CA28B /* IOTPOTDB */ = {
+			isa = PBXGroup;
+			children = (
+				F8103E3A1FEAFCEB00F0F372 /* ViewModel */,
+				F8103E391FEAFCD100F0F372 /* View */,
+				F8103E381FEAFCA200F0F372 /* Model */,
+				F8FA81561FE99AF8008CA28B /* AppDelegate.h */,
+				F8FA81571FE99AF8008CA28B /* AppDelegate.m */,
+				F8FA815F1FE99AF8008CA28B /* Assets.xcassets */,
+				F8103E341FEAE9F300F0F372 /* folder.png */,
+				F8103E351FEAE9F300F0F372 /* textfile.png */,
+				F8FA81611FE99AF8008CA28B /* LaunchScreen.storyboard */,
+				F8FA81641FE99AF8008CA28B /* Info.plist */,
+				F8FA81651FE99AF8008CA28B /* main.m */,
+			);
+			path = IOTPOTDB;
+			sourceTree = "<group>";
+		};
+		F8FA81721FEA6303008CA28B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8FA81731FEA6304008CA28B /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8FA81521FE99AF8008CA28B /* IOTPOTDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8FA81691FE99AF8008CA28B /* Build configuration list for PBXNativeTarget "IOTPOTDB" */;
+			buildPhases = (
+				F8FA814F1FE99AF8008CA28B /* Sources */,
+				F8FA81501FE99AF8008CA28B /* Frameworks */,
+				F8FA81511FE99AF8008CA28B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOTPOTDB;
+			productName = IOTPOTDB;
+			productReference = F8FA81531FE99AF8008CA28B /* IOTPOTDB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8FA814B1FE99AF8008CA28B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Arati;
+				TargetAttributes = {
+					F8FA81521FE99AF8008CA28B = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F8FA814E1FE99AF8008CA28B /* Build configuration list for PBXProject "IOTPOTDB" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8FA814A1FE99AF8008CA28B;
+			productRefGroup = F8FA81541FE99AF8008CA28B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8FA81521FE99AF8008CA28B /* IOTPOTDB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8FA81511FE99AF8008CA28B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8103E371FEAE9F300F0F372 /* textfile.png in Resources */,
+				F8FA81631FE99AF8008CA28B /* LaunchScreen.storyboard in Resources */,
+				F8103E361FEAE9F300F0F372 /* folder.png in Resources */,
+				F8FA81601FE99AF8008CA28B /* Assets.xcassets in Resources */,
+				F8FA815E1FE99AF8008CA28B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8FA814F1FE99AF8008CA28B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8FA816E1FE9E5F1008CA28B /* AuthViewController.m in Sources */,
+				F8FA81771FEA6756008CA28B /* IOTPOTDBAPI.m in Sources */,
+				F8103E331FEAD00600F0F372 /* FileCollectionViewCell.m in Sources */,
+				F8FA815B1FE99AF8008CA28B /* ViewController.m in Sources */,
+				F8FA81661FE99AF8008CA28B /* main.m in Sources */,
+				F8103E2A1FEAB47300F0F372 /* IOTPOTDBURLSessionAPI.m in Sources */,
+				F8FA81581FE99AF8008CA28B /* AppDelegate.m in Sources */,
+				F8103E301FEAC85200F0F372 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F8FA815C1FE99AF8008CA28B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8FA815D1FE99AF8008CA28B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8FA81611FE99AF8008CA28B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8FA81621FE99AF8008CA28B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8FA81671FE99AF8008CA28B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8FA81681FE99AF8008CA28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8FA816A1FE99AF8008CA28B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IOTPOTDB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arati.IOTPOTDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8FA816B1FE99AF8008CA28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IOTPOTDB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arati.IOTPOTDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8FA814E1FE99AF8008CA28B /* Build configuration list for PBXProject "IOTPOTDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8FA81671FE99AF8008CA28B /* Debug */,
+				F8FA81681FE99AF8008CA28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8FA81691FE99AF8008CA28B /* Build configuration list for PBXNativeTarget "IOTPOTDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8FA816A1FE99AF8008CA28B /* Debug */,
+				F8FA816B1FE99AF8008CA28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8FA814B1FE99AF8008CA28B /* Project object */;
+}
